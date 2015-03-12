@@ -10,7 +10,6 @@
 		38A84B0C1AB1717E00872646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0B1AB1717E00872646 /* main.m */; };
 		38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0E1AB1717E00872646 /* AppDelegate.m */; };
 		38A84B121AB1717E00872646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B111AB1717E00872646 /* ViewController.m */; };
-		38A84B151AB1717E00872646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B131AB1717E00872646 /* Main.storyboard */; };
 		38A84B171AB1717E00872646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B161AB1717E00872646 /* Images.xcassets */; };
 		38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B181AB1717E00872646 /* LaunchScreen.xib */; };
 		38A84B261AB1717E00872646 /* YLWeatherEffectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */; };
@@ -34,7 +33,6 @@
 		38A84B0E1AB1717E00872646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38A84B101AB1717E00872646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		38A84B111AB1717E00872646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		38A84B141AB1717E00872646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38A84B161AB1717E00872646 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38A84B191AB1717E00872646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38A84B1F1AB1717E00872646 /* YLWeatherEffectViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLWeatherEffectViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				38A84B0E1AB1717E00872646 /* AppDelegate.m */,
 				38A84B101AB1717E00872646 /* ViewController.h */,
 				38A84B111AB1717E00872646 /* ViewController.m */,
-				38A84B131AB1717E00872646 /* Main.storyboard */,
 				38A84B161AB1717E00872646 /* Images.xcassets */,
 				38A84B181AB1717E00872646 /* LaunchScreen.xib */,
 				38A84B091AB1717E00872646 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A84B151AB1717E00872646 /* Main.storyboard in Resources */,
 				38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */,
 				38A84B171AB1717E00872646 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		38A84B131AB1717E00872646 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38A84B141AB1717E00872646 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38A84B181AB1717E00872646 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
