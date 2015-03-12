@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A84B0C1AB1717E00872646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0B1AB1717E00872646 /* main.m */; };
+		38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0E1AB1717E00872646 /* AppDelegate.m */; };
+		38A84B121AB1717E00872646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B111AB1717E00872646 /* ViewController.m */; };
+		38A84B151AB1717E00872646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B131AB1717E00872646 /* Main.storyboard */; };
+		38A84B171AB1717E00872646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B161AB1717E00872646 /* Images.xcassets */; };
+		38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B181AB1717E00872646 /* LaunchScreen.xib */; };
+		38A84B261AB1717E00872646 /* YLWeatherEffectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38A84B201AB1717E00872646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A84AFE1AB1717E00872646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A84B051AB1717E00872646;
+			remoteInfo = YLWeatherEffectViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38A84B061AB1717E00872646 /* YLWeatherEffectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLWeatherEffectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A84B0A1AB1717E00872646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A84B0B1AB1717E00872646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38A84B0D1AB1717E00872646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38A84B0E1AB1717E00872646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38A84B101AB1717E00872646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38A84B111AB1717E00872646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38A84B141AB1717E00872646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38A84B161AB1717E00872646 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38A84B191AB1717E00872646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38A84B1F1AB1717E00872646 /* YLWeatherEffectViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLWeatherEffectViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A84B241AB1717E00872646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWeatherEffectViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A84B031AB1717E00872646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A84B1C1AB1717E00872646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A84AFD1AB1717E00872646 = {
+			isa = PBXGroup;
+			children = (
+				38A84B081AB1717E00872646 /* YLWeatherEffectViewDemo */,
+				38A84B221AB1717E00872646 /* YLWeatherEffectViewDemoTests */,
+				38A84B071AB1717E00872646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38A84B071AB1717E00872646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A84B061AB1717E00872646 /* YLWeatherEffectViewDemo.app */,
+				38A84B1F1AB1717E00872646 /* YLWeatherEffectViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A84B081AB1717E00872646 /* YLWeatherEffectViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38A84B0D1AB1717E00872646 /* AppDelegate.h */,
+				38A84B0E1AB1717E00872646 /* AppDelegate.m */,
+				38A84B101AB1717E00872646 /* ViewController.h */,
+				38A84B111AB1717E00872646 /* ViewController.m */,
+				38A84B131AB1717E00872646 /* Main.storyboard */,
+				38A84B161AB1717E00872646 /* Images.xcassets */,
+				38A84B181AB1717E00872646 /* LaunchScreen.xib */,
+				38A84B091AB1717E00872646 /* Supporting Files */,
+			);
+			path = YLWeatherEffectViewDemo;
+			sourceTree = "<group>";
+		};
+		38A84B091AB1717E00872646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A84B0A1AB1717E00872646 /* Info.plist */,
+				38A84B0B1AB1717E00872646 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38A84B221AB1717E00872646 /* YLWeatherEffectViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */,
+				38A84B231AB1717E00872646 /* Supporting Files */,
+			);
+			path = YLWeatherEffectViewDemoTests;
+			sourceTree = "<group>";
+		};
+		38A84B231AB1717E00872646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A84B241AB1717E00872646 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38A84B051AB1717E00872646 /* YLWeatherEffectViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A84B291AB1717E00872646 /* Build configuration list for PBXNativeTarget "YLWeatherEffectViewDemo" */;
+			buildPhases = (
+				38A84B021AB1717E00872646 /* Sources */,
+				38A84B031AB1717E00872646 /* Frameworks */,
+				38A84B041AB1717E00872646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLWeatherEffectViewDemo;
+			productName = YLWeatherEffectViewDemo;
+			productReference = 38A84B061AB1717E00872646 /* YLWeatherEffectViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38A84B1E1AB1717E00872646 /* YLWeatherEffectViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A84B2C1AB1717E00872646 /* Build configuration list for PBXNativeTarget "YLWeatherEffectViewDemoTests" */;
+			buildPhases = (
+				38A84B1B1AB1717E00872646 /* Sources */,
+				38A84B1C1AB1717E00872646 /* Frameworks */,
+				38A84B1D1AB1717E00872646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A84B211AB1717E00872646 /* PBXTargetDependency */,
+			);
+			name = YLWeatherEffectViewDemoTests;
+			productName = YLWeatherEffectViewDemoTests;
+			productReference = 38A84B1F1AB1717E00872646 /* YLWeatherEffectViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38A84AFE1AB1717E00872646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yulong Xiao";
+				TargetAttributes = {
+					38A84B051AB1717E00872646 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					38A84B1E1AB1717E00872646 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 38A84B051AB1717E00872646;
+					};
+				};
+			};
+			buildConfigurationList = 38A84B011AB1717E00872646 /* Build configuration list for PBXProject "YLWeatherEffectViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38A84AFD1AB1717E00872646;
+			productRefGroup = 38A84B071AB1717E00872646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A84B051AB1717E00872646 /* YLWeatherEffectViewDemo */,
+				38A84B1E1AB1717E00872646 /* YLWeatherEffectViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38A84B041AB1717E00872646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A84B151AB1717E00872646 /* Main.storyboard in Resources */,
+				38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */,
+				38A84B171AB1717E00872646 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A84B1D1AB1717E00872646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38A84B021AB1717E00872646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A84B121AB1717E00872646 /* ViewController.m in Sources */,
+				38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */,
+				38A84B0C1AB1717E00872646 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A84B1B1AB1717E00872646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A84B261AB1717E00872646 /* YLWeatherEffectViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A84B211AB1717E00872646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A84B051AB1717E00872646 /* YLWeatherEffectViewDemo */;
+			targetProxy = 38A84B201AB1717E00872646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38A84B131AB1717E00872646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A84B141AB1717E00872646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38A84B181AB1717E00872646 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A84B191AB1717E00872646 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38A84B271AB1717E00872646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38A84B281AB1717E00872646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38A84B2A1AB1717E00872646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLWeatherEffectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38A84B2B1AB1717E00872646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLWeatherEffectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38A84B2D1AB1717E00872646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLWeatherEffectViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLWeatherEffectViewDemo.app/YLWeatherEffectViewDemo";
+			};
+			name = Debug;
+		};
+		38A84B2E1AB1717E00872646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLWeatherEffectViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLWeatherEffectViewDemo.app/YLWeatherEffectViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38A84B011AB1717E00872646 /* Build configuration list for PBXProject "YLWeatherEffectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A84B271AB1717E00872646 /* Debug */,
+				38A84B281AB1717E00872646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A84B291AB1717E00872646 /* Build configuration list for PBXNativeTarget "YLWeatherEffectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A84B2A1AB1717E00872646 /* Debug */,
+				38A84B2B1AB1717E00872646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38A84B2C1AB1717E00872646 /* Build configuration list for PBXNativeTarget "YLWeatherEffectViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A84B2D1AB1717E00872646 /* Debug */,
+				38A84B2E1AB1717E00872646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38A84AFE1AB1717E00872646 /* Project object */;
+}
