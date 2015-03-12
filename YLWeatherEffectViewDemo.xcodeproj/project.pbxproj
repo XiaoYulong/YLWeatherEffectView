@@ -13,6 +13,7 @@
 		38A84B171AB1717E00872646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B161AB1717E00872646 /* Images.xcassets */; };
 		38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B181AB1717E00872646 /* LaunchScreen.xib */; };
 		38A84B261AB1717E00872646 /* YLWeatherEffectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */; };
+		38BA226A1AB1743F00553CF1 /* YLWeatherEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		38A84B1F1AB1717E00872646 /* YLWeatherEffectViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLWeatherEffectViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A84B241AB1717E00872646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWeatherEffectViewDemoTests.m; sourceTree = "<group>"; };
+		38BA22681AB1743F00553CF1 /* YLWeatherEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWeatherEffectView.h; path = YLWeatherEffectView/YLWeatherEffectView.h; sourceTree = "<group>"; };
+		38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWeatherEffectView.m; path = YLWeatherEffectView/YLWeatherEffectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		38A84AFD1AB1717E00872646 = {
 			isa = PBXGroup;
 			children = (
+				38BA22671AB1740D00553CF1 /* YLWeatherEffectView */,
 				38A84B081AB1717E00872646 /* YLWeatherEffectViewDemo */,
 				38A84B221AB1717E00872646 /* YLWeatherEffectViewDemoTests */,
 				38A84B071AB1717E00872646 /* Products */,
@@ -114,6 +118,15 @@
 				38A84B241AB1717E00872646 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38BA22671AB1740D00553CF1 /* YLWeatherEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				38BA22681AB1743F00553CF1 /* YLWeatherEffectView.h */,
+				38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */,
+			);
+			name = YLWeatherEffectView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A84B121AB1717E00872646 /* ViewController.m in Sources */,
+				38BA226A1AB1743F00553CF1 /* YLWeatherEffectView.m in Sources */,
 				38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */,
 				38A84B0C1AB1717E00872646 /* main.m in Sources */,
 			);
@@ -402,6 +416,7 @@
 				38A84B2B1AB1717E00872646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38A84B2C1AB1717E00872646 /* Build configuration list for PBXNativeTarget "YLWeatherEffectViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +425,7 @@
 				38A84B2E1AB1717E00872646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
