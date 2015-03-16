@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380D82021AB6B21700F1EB50 /* YLWE_cell_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */; };
 		38A84B0C1AB1717E00872646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0B1AB1717E00872646 /* main.m */; };
 		38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0E1AB1717E00872646 /* AppDelegate.m */; };
 		38A84B121AB1717E00872646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B111AB1717E00872646 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A84B181AB1717E00872646 /* LaunchScreen.xib */; };
 		38A84B261AB1717E00872646 /* YLWeatherEffectViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */; };
 		38BA226A1AB1743F00553CF1 /* YLWeatherEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */; };
+		38BA22781AB1972100553CF1 /* YLWE_cell_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BA22771AB1972100553CF1 /* YLWE_cell_rain.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YLWE_cell_sun.png; path = YLWeatherEffectView/YLWE_cell_sun.png; sourceTree = "<group>"; };
 		38A84B061AB1717E00872646 /* YLWeatherEffectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLWeatherEffectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A84B0A1AB1717E00872646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A84B0B1AB1717E00872646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		38A84B251AB1717E00872646 /* YLWeatherEffectViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWeatherEffectViewDemoTests.m; sourceTree = "<group>"; };
 		38BA22681AB1743F00553CF1 /* YLWeatherEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWeatherEffectView.h; path = YLWeatherEffectView/YLWeatherEffectView.h; sourceTree = "<group>"; };
 		38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWeatherEffectView.m; path = YLWeatherEffectView/YLWeatherEffectView.m; sourceTree = "<group>"; };
+		38BA22771AB1972100553CF1 /* YLWE_cell_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YLWE_cell_rain.png; path = YLWeatherEffectView/YLWE_cell_rain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 		38BA22671AB1740D00553CF1 /* YLWeatherEffectView */ = {
 			isa = PBXGroup;
 			children = (
+				380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */,
+				38BA22771AB1972100553CF1 /* YLWE_cell_rain.png */,
 				38BA22681AB1743F00553CF1 /* YLWeatherEffectView.h */,
 				38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */,
 			);
@@ -210,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */,
+				380D82021AB6B21700F1EB50 /* YLWE_cell_sun.png in Resources */,
+				38BA22781AB1972100553CF1 /* YLWE_cell_rain.png in Resources */,
 				38A84B171AB1717E00872646 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

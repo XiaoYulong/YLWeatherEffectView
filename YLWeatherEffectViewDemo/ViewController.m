@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YLWeatherEffectView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+    YLWeatherEffectView *weatherView = [[YLWeatherEffectView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:weatherView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

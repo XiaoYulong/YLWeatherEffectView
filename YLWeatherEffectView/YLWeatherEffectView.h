@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSUInteger, YLWeatherEffectViewType) {
+    YLWeatherEffectViewTypeRainy,
+    YLWeatherEffectViewTypeSunny,
+    YLWeatherEffectViewTypeCloudy,
+    YLWeatherEffectViewTypeSnowy
+};
 @interface YLWeatherEffectView : UIView
-
+-(id)initWithFrame:(CGRect)frame weatherType:(YLWeatherEffectViewType)weatherType NightTime:(BOOL) isNightTime;
 @end
