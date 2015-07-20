@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		380D82021AB6B21700F1EB50 /* YLWE_cell_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */; };
+		38301E541AB6D663007D8CF2 /* YLWE_cell_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 38301E531AB6D663007D8CF2 /* YLWE_cell_sun.png */; };
 		38A84B0C1AB1717E00872646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0B1AB1717E00872646 /* main.m */; };
 		38A84B0F1AB1717E00872646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B0E1AB1717E00872646 /* AppDelegate.m */; };
 		38A84B121AB1717E00872646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A84B111AB1717E00872646 /* ViewController.m */; };
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YLWE_cell_sun.png; path = YLWeatherEffectView/YLWE_cell_sun.png; sourceTree = "<group>"; };
+		38301E531AB6D663007D8CF2 /* YLWE_cell_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YLWE_cell_sun.png; path = YLWeatherEffectView/YLWE_cell_sun.png; sourceTree = "<group>"; };
 		38A84B061AB1717E00872646 /* YLWeatherEffectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLWeatherEffectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A84B0A1AB1717E00872646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A84B0B1AB1717E00872646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		38BA22671AB1740D00553CF1 /* YLWeatherEffectView */ = {
 			isa = PBXGroup;
 			children = (
-				380D82011AB6B21700F1EB50 /* YLWE_cell_sun.png */,
+				38301E531AB6D663007D8CF2 /* YLWE_cell_sun.png */,
 				38BA22771AB1972100553CF1 /* YLWE_cell_rain.png */,
 				38BA22681AB1743F00553CF1 /* YLWeatherEffectView.h */,
 				38BA22691AB1743F00553CF1 /* YLWeatherEffectView.m */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A84B1A1AB1717E00872646 /* LaunchScreen.xib in Resources */,
-				380D82021AB6B21700F1EB50 /* YLWE_cell_sun.png in Resources */,
+				38301E541AB6D663007D8CF2 /* YLWE_cell_sun.png in Resources */,
 				38BA22781AB1972100553CF1 /* YLWE_cell_rain.png in Resources */,
 				38A84B171AB1717E00872646 /* Images.xcassets in Resources */,
 			);

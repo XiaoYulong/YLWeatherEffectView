@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
-    YLWeatherEffectView *weatherView = [[YLWeatherEffectView alloc] initWithFrame:self.view.bounds];
+    YLWeatherEffectView *weatherView = [[YLWeatherEffectView alloc] initWithFrame:self.view.bounds weatherType:YLWeatherEffectViewTypeRainy NightTime:NO];
     [self.view addSubview:weatherView];
     // Do any additional setup after loading the view, typically from a nib.
 }

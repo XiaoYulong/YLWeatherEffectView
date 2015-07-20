@@ -39,7 +39,34 @@
 
 -(void)setToSunnyInNightTime:(BOOL)isNightTime
 {
-    ;
+    if (isNightTime) {
+        self.backgroundColor = [UIColor blackColor];
+    }else{
+        self.backgroundColor = [UIColor blueColor];
+    }
+    _emitterLayer = (CAEmitterLayer *)self.layer;
+    _emitterLayer.renderMode = kCAEmitterLayerAdditive;
+    
+    _emitterLayer.emitterPosition = CGPointMake(100, 100);
+//    _emitterLayer.emitterSize = CGSizeMake(20, 20);
+    _emitterLayer.emitterShape =kCAEmitterLayerPoint;
+    _emitterLayer.scale = 0.2;
+    CAEmitterCell* fire = [CAEmitterCell emitterCell];
+    fire.birthRate = 200;
+    fire.lifetime = 3.0;
+//    fire.lifetimeRange = 0.5;
+    fire.color = [[UIColor colorWithRed:0.8 green:0.4 blue:0.2 alpha:0.1] CGColor];
+    fire.contents = (id)[[UIImage imageNamed:@"YLWE_cell_sun.png"] CGImage];
+    [fire setName:@"fire"];
+    
+    fire.velocity = 10;
+    fire.velocityRange = 0;
+    fire.emissionRange = M_PI;
+    
+    fire.scaleSpeed = 0.3;
+    fire.spin = 0.5;
+    
+    _emitterLayer.emitterCells = @[fire];
 }
 
 -(void)setToRainyInNightTime:(BOOL)isNightTime
